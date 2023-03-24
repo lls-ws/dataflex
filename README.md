@@ -20,3 +20,9 @@ or
 
 dosbox
 
+# Login:
+
+User: root
+
+Password: 123456
+
