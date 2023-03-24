@@ -22,7 +22,7 @@ dosbox
 
 # Login:
 
-User: lls
+User: LLS
 
 Password: 123456
 
