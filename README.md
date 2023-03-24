@@ -11,3 +11,4 @@ cd dataflex
 bash bin/dosbox_conf.sh install
 
 bash bin/dosbox_conf.sh config
+
