@@ -18,22 +18,20 @@ dosbox_config()
 	DIR_CONF=".${APP_NAME}"
 	FILE_CONF="dosbox-0.74-3.conf"
 	
-	if [ ! -d "${DIR_CONF}" ]; then
+	if [ ! -d ~/${DIR_CONF} ]; then
 	
 		mkdir -pv ~/${DIR_CONF}
 	
-	else
+	fi
 	
-		if [ ! -f "~/${DIR_CONF}/${FILE_CONF}.bak" ]; then
+	if [ ! -f ~/${DIR_CONF}/${FILE_CONF}.bak ]; then
 	
-			if [ -f "~/${DIR_CONF}/${FILE_CONF}" ]; then
+		if [ -f ~/${DIR_CONF}/${FILE_CONF} ]; then
 	
-				cp -fv ~/${DIR_CONF}/${FILE_CONF} ~/${DIR_CONF}/${FILE_CONF}.bak
+			cp -fv ~/${DIR_CONF}/${FILE_CONF} ~/${DIR_CONF}/${FILE_CONF}.bak
 				
-			fi
-			
 		fi
-	
+			
 	fi
 	
 	cp -fv conf/${FILE_CONF} ~/${DIR_CONF}/${FILE_CONF}
