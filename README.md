@@ -6,6 +6,6 @@ DOS Emulator is required to run!
 
 Steps to configure:
 
-cd dataflex
-bash bin/dosbox_conf.sh install
-bash bin/dosbox_conf.sh config
+. cd dataflex
+. bash bin/dosbox_conf.sh install
+. bash bin/dosbox_conf.sh config
