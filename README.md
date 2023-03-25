@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="left">
-  A program to control a Grain Storage of Coffe and Corn.
+  A DOS app to manager a Grain Storage of Coffe and Corn.
   
   DOS Emulator is required to run!
 </h4>
