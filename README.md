@@ -31,11 +31,6 @@ bash bin/dosbox_conf.sh config
 
 ```bash
 bash bin/dosbox_conf.sh run
-
-or
-
-dosbox
-
 ```
 
 ## Login:
