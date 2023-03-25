@@ -51,6 +51,16 @@ dosbox_run()
 	
 }
 
+USER=$(whoami)
+
+if [ ${USER} = "root" ]; then
+    
+    echo "Usuario root não permitido!"
+    
+    exit 1;
+    
+fi
+
 APP_NAME="dosbox"
 
 case "$1" in
