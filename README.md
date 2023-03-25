@@ -4,7 +4,9 @@
 
 <h4 align="center">
   App to manager a Grain Storage of Coffe and Corn.
-  </br>
+</h4>
+
+<h4 align="center">
   DOS Emulator is required to run!
 </h4>
 
