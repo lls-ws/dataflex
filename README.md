@@ -2,7 +2,7 @@
   Dataflex
 </h1>
 
-<h4 align="left">
+<h4 align="center">
   App to manager a Grain Storage of Coffe and Corn.
   
   DOS Emulator is required to run!
